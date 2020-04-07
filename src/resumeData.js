@@ -2,7 +2,7 @@ let resumeData = {
     "name": "Nagma Bardoi",
     "role": "Full Stack Web Developer",
     "email": "nagmabardoi@gmail.com",
-    "roleDescription": " Passionate about learning new technologies and adept at designing, developing, and maintaining multiple responsive web applications from front to back with the MERN stack (MongoDB, Express.js, React.js, and Node.js).",
+    "roleDescription": "Passionate about learning new technologies and adept at designing, developing, and maintaining multiple responsive web applications from front to back with the MERN stack (MongoDB, Express.js, React.js, and Node.js).",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -15,7 +15,7 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"Full stack solution-driven web developer leveraging a background in business to provide support and leadership in the development of web applications. Recently earned a certificate in Full Stack Web Development from The University of Texas at San Antonio with newly acquired skills in HTML, JavaScript, CSS, jQuery, AJAX, MySQL, and the MERN stack. Proven adept at designing, developing, and maintaining multiple responsive web applications from front to back with different tech stacks, namely the MERN stack (MongoDB, Express.js, React.js, and Node.js). Demonstrates the capability of maintaining code by fixing bugs and remarkable knowledge of Git, GitFlow and GitHub. Passionate about learning new technologies, bringing ideas to life, finding solutions to challenges, and working with dedicated teams to build efficient and robust applications suited to the meet the user’s needs. Looking forward to applying the acquired gamut of skills in a challenging role.",
+    "aboutme": "Full-stack web developer leveraging a background in business to provide support and leadership in the development of web applications. Proven aptitude at designing, developing, and maintaining multiple responsive web applications from front to back with different tech stacks, namely the MERN stack (MongoDB, Express.js, React.js, and Node.js). Passionate about learning new technologies, bringing ideas to life, finding solutions to challenges, and working with dedicated teams to build efficient and robust applications suited to meet the user’s needs. Looking forward to applying the acquired gamut of skills in a challenging role.",
     "address":"San Antonio, Texas",
     "website":"",
     "education":[
@@ -43,6 +43,13 @@ let resumeData = {
     ],
     "work":[
       {
+        "CompanyName":"NST Investments Inc",
+        "specialization":"Administrative Assistant ",
+        "MonthOfLeaving":"Jan 2014 - ",
+        "YearOfLeaving":"Present",
+        "Achievements":"Coordinated domestic and international travel arrangements, including booking airfare, hotel and ground transportation. Responded to emails and other correspondence to facilitate communication and enhance business processes. Used computers and various software to generate reports, create presentations, conduct research, and prepare financial statements, reports, memos, invoices letters, and other documents. Managed administrative functions, including complex calendar management with focus on proper allocation of executive availability."
+      },
+      {
         "CompanyName":"Children's Emergency Relief International",
         "specialization":"Marketing Intern",
         "MonthOfLeaving":"January 2019 - ",
@@ -62,14 +69,7 @@ let resumeData = {
         "MonthOfLeaving":"September 2018 - ",
         "YearOfLeaving":"May 2019",
         "Achievements":"Supported instructor with test administration, curriculum development and assignment grading. Enhance student learning by giving meaningful and constructive feedback on assignments. Scheduled office hours and communicated with students via email to remedy issues and provide assistance."
-      },
-      {
-        "CompanyName":"NST Investments Inc",
-        "specialization":"Administrative Assistant ",
-        "MonthOfLeaving":"Jan 2014 - ",
-        "YearOfLeaving":"Present",
-        "Achievements":"Coordinated domestic and international travel arrangements, including booking airfare, hotel and ground transportation. Responded to emails and other correspondence to facilitate communication and enhance business processes. Used computers and various software to generate reports, create presentations, conduct research, and prepare financial statements, reports, memos, invoices letters, and other documents. Managed administrative functions, including complex calendar management with focus on proper allocation of executive availability."
-      }
+      }      
     ],
     "skillsDescription":"Technical Skills: HTML, JavaScript, CSS, Bootstrap, jQuery, APIs, AJAX, MySQL, NPM, JSON, MongoDB, Express.js, Node.js, React.js, GitHub, and Heroku.",
     "skills":[
@@ -104,54 +104,62 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"",
-        "description":"",
+        "name":"Rate-My-Sitter",
+        "description":"Rate-My-Sitter is an app that allows parents to connect with other parents and babysitters. Parents can post jobs and connect with babysitters through reviews and recommendations.",
+        "tools": "Node.js, NPM Dependencies, JavaScript, HTML, CSS, Heroku, Express, Sequelize, MySQL, ORM, Bootstrap, and DotEnv",
         "imgurl":"images/portfolio/coffee.jpg",
-        "link": "https://nbardoi.github.io/Word-Guess-Game/"
+        "link": "https://rate-my-sitter.herokuapp.com/"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
+        "name":"Fest & Feast",
+        "description":"Search for events or food in one place with the help of the Fest & Feast APP. No need to switch between sites anymore as Fest & Feast gives you the convenience to search for events and food in one place!",
+        "tools": "HTML, CSS, Javascript, jQuery, Zurb Foundation HTML Templates, Bootstrap Framework, AJAX, MapQuest API, Zomato API, Ticketmaster API, GitHub Pages, and Firebase Database",
         "imgurl":"images/portfolio/console.jpg",
-        "link": ""
+        "link": "https://nbardoi.github.io/Fest_Feast"
 
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/farmerboy.jpg",
-        "link": ""
-
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
+        "name":"Bamazon",
+        "description":"Bamazon is an Amazon-like storefront node application that uses databasing to take in orders from customers and deplete stock from the store's inventory.",
+        "tools": "Node.js, JavaScript, MySQL Workbench, MySQL NPM, and Inquirer NPM",
         "imgurl":"images/portfolio/girl.jpg",
-        "link": ""
+        "link": "https://github.com/nbardoi/bamazon"
       },
       {
-        "name":"",
-        "description":"",
+        "name":"Marvel Clicky Game",
+        "description":"This is a react based web application that allows you to guess a random Marvel movie poster. Once you select the movie poster, the position of all the movie posters will randomly change position. The goal of the game is to guess all 12 movie posters without selecting the same movie poster twice!",  
+        "tools": "React, HTML, Javascript, and Bootstrap - CSS Framework",
+        "imgurl":"images/portfolio/farmerboy.jpg",
+        "link": "https://nbardoi.github.io/marvel-clicky-game/"
+
+      },
+      {
+        "name":"Trivia Game",
+        "description":"A Trivia game using JavaScript for the logic and jQuery to manipulate HTML. The game only shows one question until the player answers it or their time runs out.",
+        "tools": "HTML, CSS, JavaScript, and jQuery",
         "imgurl":"images/portfolio/into-the-light.jpg",
-        "link": ""
+        "link": "https://nbardoi.github.io/TriviaGame"
       },
       {
-        "name":"",
-        "description":"",
+        "name":"Word Guess Game",
+        "description":"Simple version of a hangman style game.",
+        "tools": "HTML, CSS, JavaScript",
         "imgurl":"images/portfolio/judah.jpg",
-        "link": ""
+        "link": "https://nbardoi.github.io/Word-Guess-Game"
       },
       {
-        "name":"",
-        "description":"",
+        "name":"LIRI Node App",
+        "description":"LIRI is a command line node app that takes in parameters and gives back data. LIRI will search the Spotify API for songs, the Bands in Town Events API for concerts, and the OMDB API for movies.",
+        "tools": "Node.js, JavaScript, Bands In Town API (via axios npm module), Spotify API (via spotify npm module), and OMDb API (via axios npm module)",
         "imgurl":"images/portfolio/origami.jpg",
-        "link": ""
+        "link": "https://github.com/nbardoi/liri-node-app"
       },
       {
-        "name":"",
-        "description":"",
+        "name":"Burgers-n-Beer",
+        "description":"Burgers-n-Beer is a an app that allows users to view the top Burgers-n-Beer joints in the categories of restaurant, brewery, or bar.",
+        "tools": "Node.js, JavaScript, HTML, CSS, Heroku, Express, Sequelize, MySQL, ORM, Premade Template - Materalize, Bootstrap, and DotEnv",
         "imgurl":"images/portfolio/retrocam.jpg",
-        "link": ""
+        "link": "https://burgers-n-beer.herokuapp.com/"
       }
     ]
   }
