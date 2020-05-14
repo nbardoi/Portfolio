@@ -108,14 +108,16 @@ let resumeData = {
         "description":"Rate-My-Sitter is an app that allows parents to connect with other parents and babysitters. Parents can post jobs and connect with babysitters through reviews and recommendations.",
         "tools": "Node.js, NPM Dependencies, JavaScript, HTML, CSS, Heroku, Express, Sequelize, MySQL, ORM, Bootstrap, and DotEnv",
         "imgurl":"images/portfolio/coffee.jpg",
-        "link": "https://rate-my-sitter.herokuapp.com/"
+        "link": "https://rate-my-sitter.herokuapp.com/",
+        "repo": "https://github.com/nbardoi/rate-my-sitter"
       },
       {
         "name":"Fest & Feast",
         "description":"Search for events or food in one place with the help of the Fest & Feast APP. No need to switch between sites anymore as Fest & Feast gives you the convenience to search for events and food in one place!",
         "tools": "HTML, CSS, Javascript, jQuery, Zurb Foundation HTML Templates, Bootstrap Framework, AJAX, MapQuest API, Zomato API, Ticketmaster API, GitHub Pages, and Firebase Database",
         "imgurl":"images/portfolio/console.jpg",
-        "link": "https://nbardoi.github.io/Fest_Feast"
+        "link": "https://nbardoi.github.io/Fest_Feast",
+        "repo": "https://github.com/nbardoi/Fest_Feast"
 
       },
       {
@@ -123,14 +125,16 @@ let resumeData = {
         "description":"Bamazon is an Amazon-like storefront node application that uses databasing to take in orders from customers and deplete stock from the store's inventory.",
         "tools": "Node.js, JavaScript, MySQL Workbench, MySQL NPM, and Inquirer NPM",
         "imgurl":"images/portfolio/girl.jpg",
-        "link": "https://github.com/nbardoi/bamazon"
+        "link": "https://github.com/nbardoi/bamazon",
+        "repo": "https://github.com/nbardoi/bamazon"
       },
       {
         "name":"Marvel Clicky Game",
         "description":"This is a react based web application that allows you to guess a random Marvel movie poster. Once you select the movie poster, the position of all the movie posters will randomly change position. The goal of the game is to guess all 12 movie posters without selecting the same movie poster twice!",  
         "tools": "React, HTML, Javascript, and Bootstrap - CSS Framework",
         "imgurl":"images/portfolio/farmerboy.jpg",
-        "link": "https://nbardoi.github.io/marvel-clicky-game/"
+        "link": "https://nbardoi.github.io/marvel-clicky-game/",
+        "repo": "https://github.com/nbardoi/marvel-clicky-game"
 
       },
       {
@@ -138,28 +142,32 @@ let resumeData = {
         "description":"A Trivia game using JavaScript for the logic and jQuery to manipulate HTML. The game only shows one question until the player answers it or their time runs out.",
         "tools": "HTML, CSS, JavaScript, and jQuery",
         "imgurl":"images/portfolio/into-the-light.jpg",
-        "link": "https://nbardoi.github.io/TriviaGame"
+        "link": "https://nbardoi.github.io/TriviaGame",
+        "repo": "https://github.com/nbardoi/TriviaGame"
       },
       {
         "name":"Word Guess Game",
         "description":"Simple version of a hangman style game.",
         "tools": "HTML, CSS, JavaScript",
         "imgurl":"images/portfolio/judah.jpg",
-        "link": "https://nbardoi.github.io/Word-Guess-Game"
+        "link": "https://nbardoi.github.io/Word-Guess-Game",
+        "repo": "https://github.com/nbardoi/Word-Guess-Game"
       },
       {
         "name":"LIRI Node App",
         "description":"LIRI is a command line node app that takes in parameters and gives back data. LIRI will search the Spotify API for songs, the Bands in Town Events API for concerts, and the OMDB API for movies.",
         "tools": "Node.js, JavaScript, Bands In Town API (via axios npm module), Spotify API (via spotify npm module), and OMDb API (via axios npm module)",
         "imgurl":"images/portfolio/origami.jpg",
-        "link": "https://github.com/nbardoi/liri-node-app"
+        "link": "https://github.com/nbardoi/liri-node-app",
+        "repo": "https://github.com/nbardoi/liri-node-app"
       },
       {
         "name":"Burgers-n-Beer",
         "description":"Burgers-n-Beer is a an app that allows users to view the top Burgers-n-Beer joints in the categories of restaurant, brewery, or bar.",
         "tools": "Node.js, JavaScript, HTML, CSS, Heroku, Express, Sequelize, MySQL, ORM, Premade Template - Materalize, Bootstrap, and DotEnv",
         "imgurl":"images/portfolio/retrocam.jpg",
-        "link": "https://burgers-n-beer.herokuapp.com/"
+        "link": "https://burgers-n-beer.herokuapp.com/",
+        "repo": "https://github.com/nbardoi/Burgers-n-Beer"
       }
     ]
   }

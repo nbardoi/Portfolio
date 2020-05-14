@@ -18,6 +18,7 @@ export default class Porfolio extends Component {
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Work</h1>
+          <h3>Click on the image to see the deployed project.</h3> 
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
@@ -30,6 +31,7 @@ export default class Porfolio extends Component {
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
                           <p>Built With: {item.tools}</p>
+                          <p href={item.repo}>Github Repository</p>
                         </div>
                       </div>
                   </div>
