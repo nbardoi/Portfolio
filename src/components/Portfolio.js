@@ -31,7 +31,7 @@ export default class Porfolio extends Component {
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
                           <p>Built With: {item.tools}</p>
-                          <p href={item.repo}>Github Repository</p>
+                          <a href={item.repo}>Github Repository</a>
                         </div>
                       </div>
                   </div>
