@@ -29,9 +29,9 @@ export default class Porfolio extends Component {
                       <div className="card-body">
                         <div className="card-title">
                           <h5>{item.name}</h5>
+                          <a href={item.repo}>Github Repository</a>
                           <p>{item.description}</p>
                           <p>Built With: {item.tools}</p>
-                          <a href={item.repo}>Github Repository</a>
                         </div>
                       </div>
                   </div>
